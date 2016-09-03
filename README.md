@@ -68,7 +68,7 @@
                                 
     size_t write              ( uint8_t);           Directly write to the Display Memory
 
-    void   command            ( uint8_t);           Directly send a specific commant to the Display
+    void   command            ( uint8_t);           Directly send a specific command to the Display
     
     void   init               ( void );             Initialize the Display. 
 

@@ -2,7 +2,7 @@
   File        : MC_I2C_Simple.cpp
   File type   : Arduino Library
   Developed By: Mario Calfizzi
-  Description : This is the core I2C library self made to manage the MCP41010 digital SPI 10KOhm potentiometer.
+  Description : This is the core I2C library self made to manage I2C communication on Ani Pin of arduino.
 *************************************************************************************************************************/
 
 #include "MC_I2C_Simple.h"
