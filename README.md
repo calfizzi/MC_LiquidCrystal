@@ -19,12 +19,10 @@
                                                       address using Hardware Address setted.
                                                       if no error returns 1 
                                                                       
-    int  write  ( uint8_t address, uint8_t *buffer,   
-                  uint8_t size);                      Write a list of Bytes via I2C on an internal dispositive 
-                                                      register address using Hardware Address setted.
+    int  write  ( uint8_t address, uint8_t *buffer,   Write a list of Bytes via I2C on an internal dispositive
+                  uint8_t size);                      register address using Hardware Address setted. 
                                                       if no error returns number of bytes wrote 
-      
-    int  read   ( uint8_t address, uint8_t *buffer,   
-                  uint8_t size);                      Read a list of Bytes via I2C on an internal dispositive  
-                                                      register address using Hardware Address setted.
+                                                      
+    int  read   ( uint8_t address, uint8_t *buffer,   Read a list of Bytes via I2C on an internal dispositive
+                  uint8_t size);                      register address using Hardware Address setted.  
                                                       if no error returns number of bytes read
