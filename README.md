@@ -73,11 +73,11 @@
     void   init               ( void );             Initialize the Display. 
 
 ##   compatibility Methods aliases:
-    void    blink_on              ( void );						  alias for blink()
-    void    blink_off             ( void );       			lias for noBlink()
-    void    cursor_on             ( void );      	 			lias for cursor()
-    void    cursor_off            ( void );      				lias for noCursor()
-    void    setBacklight          ( uint8_t new_val);		lias for backlight() and nobacklight()
+    void    blink_on              ( void );             alias for blink()
+    void    blink_off             ( void );             lias for noBlink()
+    void    cursor_on             ( void );             lias for cursor()
+    void    cursor_off            ( void );             lias for noCursor()
+    void    setBacklight          ( uint8_t new_val);   lias for backlight() and nobacklight()
     void    load_custom_character ( uint8_t char_num,   alias for createChar()
                                     uint8_t *rows);	      
     void    printstr              ( const char[]);
