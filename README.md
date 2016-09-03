@@ -1,13 +1,12 @@
 # MC_LiquidCrystal
-MC_LiquidCrystal digital Liquid Crystal Display Library - Arduino Library
-
-Download and try the class MC_LiquidCrystal to manage any Liquid Crystal (16x2 or 20x4) display...
+  MC_LiquidCrystal digital Liquid Crystal Display Library - Arduino Library
+  Download and try the class MC_LiquidCrystal to manage any Liquid Crystal (16x2 or 20x4) display...
 
 # MC_I2C_Simple
-#   Constructors
+#   Constructors:
     MC_I2C_Simple (uint8_t SDA_PIN, uint8_t SCL_PIN)  You can set SDA SCL Pin 
 
-#   Methods
+#   Methods:
     void begin  ( uint8_t DeviceFisicalAddress);      Set Hardware Address
     
     void begin  ( uint8_t DeviceFisicalAddress, 
