@@ -28,4 +28,4 @@ int  write  ( uint8_t address, uint8_t *buffer,
 int  read   ( uint8_t address, uint8_t *buffer,   
               uint8_t size);                      Read a list of Bytes via I2C on an internal dispositive register 
                                                   address using Hardware Address setted.
-                                                  if no error returns number of bytes read
+                                                  if no error returns number of bytes read.
