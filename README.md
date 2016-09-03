@@ -63,7 +63,7 @@
     void   createChar         ( uint8_t location,   Define your own Character Set
                                 uint8_t charmap[]); location => 0-7, charmap is 8 byte map
                                 
-    void   setCursor          ( uint8_t col,        Set the curso Position
+    void   setCursor          ( uint8_t col,        Set the cursor position
                                 uint8_t row);        
                                 
     size_t write              ( uint8_t);           Directly write to the Display Memory
@@ -72,7 +72,7 @@
     
     void   init               ( void );             Initialize the Display. 
 
-##   compatibility Methods aliases:
+##   Compatibility Methods aliases:
     void    blink_on              ( void );             alias for blink()
     void    blink_off             ( void );             lias for noBlink()
     void    cursor_on             ( void );             lias for cursor()
@@ -84,7 +84,7 @@
 
 
     
-# MC_I2C_Simple Class
+# MC_I2C_Simple Class used by MC_LiquidCrystal
 ##   Constructors:
     MC_I2C_Simple (uint8_t SDA_PIN, uint8_t SCL_PIN)  You can set SDA SCL Pin 
 
