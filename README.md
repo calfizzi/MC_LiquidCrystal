@@ -29,5 +29,3 @@ Download and try the class MC_LiquidCrystal to manage any Liquid Crystal (16x2 o
                       uint8_t size);                      Read a list of Bytes via I2C on an internal dispositive register 
                                                           address using Hardware Address setted.
                                                           if no error returns number of bytes read
-
-
