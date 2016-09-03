@@ -41,65 +41,65 @@
                             uint8_t SCL_PIN = 5);     SCL_PIN           => you can use any pin of arduino
 
 ##   Methods:
-  void   begin              ( uint8_t cols, 
-                              uint8_t rows, 
-                              uint8_t charsize 
-                              = LCD_5x8DOTS );
-                              
-  void   clear              ( void );
-  
-  void   home               ( void );
-  
-  void   noDisplay          ( void );
-  
-  void   display            ( void );
-  
-  void   noBlink            ( void );
-  
-  void   blink              ( void );
-  
-  void   noCursor           ( void );
-  
-  void   cursor             ( void );
-  
-  void   scrollDisplayLeft  ( void );
-  
-  void   scrollDisplayRight ( void );
-  
-  void   printLeft          ( void );
-  
-  void   printRight         ( void );
-  
-  void   leftToRight        ( void );
-  
-  void   rightToLeft        ( void );
-  
-  void   shiftIncrement     ( void );
-  
-  void   shiftDecrement     ( void );
-  
-  void   noBacklight        ( void );
-  
-  void   backlight          ( void );
-  
-  void   autoscroll         ( void );
-  
-  void   noAutoscroll       ( void ); 
-  
-  void   createChar         ( uint8_t location, 
-                              uint8_t charmap[]);
-  void   setCursor          ( uint8_t col, 
-                              uint8_t row); 
-  size_t write              ( uint8_t);
-  void   command            ( uint8_t);
-  void   init               ( void );
+    void   begin              ( uint8_t cols, 
+                                uint8_t rows, 
+                                uint8_t charsize 
+                                = LCD_5x8DOTS );
+                                
+    void   clear              ( void );
+    
+    void   home               ( void );
+    
+    void   noDisplay          ( void );
+    
+    void   display            ( void );
+    
+    void   noBlink            ( void );
+    
+    void   blink              ( void );
+    
+    void   noCursor           ( void );
+    
+    void   cursor             ( void );
+    
+    void   scrollDisplayLeft  ( void );
+    
+    void   scrollDisplayRight ( void );
+    
+    void   printLeft          ( void );
+    
+    void   printRight         ( void );
+    
+    void   leftToRight        ( void );
+    
+    void   rightToLeft        ( void );
+    
+    void   shiftIncrement     ( void );
+    
+    void   shiftDecrement     ( void );
+    
+    void   noBacklight        ( void );
+    
+    void   backlight          ( void );
+    
+    void   autoscroll         ( void );
+    
+    void   noAutoscroll       ( void ); 
+    
+    void   createChar         ( uint8_t location, 
+                                uint8_t charmap[]);
+    void   setCursor          ( uint8_t col, 
+                                uint8_t row); 
+    size_t write              ( uint8_t);
+    void   command            ( uint8_t);
+    void   init               ( void );
 
 ##   compatibility Methods aliases:
-  void    blink_on              ( void );						    alias for blink()
-  void    blink_off             ( void );       				alias for noBlink()
-  void    cursor_on             ( void );      	 				alias for cursor()
-  void    cursor_off            ( void );      					alias for noCursor()
-  void    setBacklight          ( uint8_t new_val);			alias for backlight() and nobacklight()
-  void    load_custom_character ( uint8_t char_num,     alias for createChar()
-                                  uint8_t *rows);	      
-  void    printstr              ( const char[]);
+    void    blink_on              ( void );						  alias for blink()
+    void    blink_off             ( void );       			lias for noBlink()
+    void    cursor_on             ( void );      	 			lias for cursor()
+    void    cursor_off            ( void );      				lias for noCursor()
+    void    setBacklight          ( uint8_t new_val);		lias for backlight() and nobacklight()
+    void    load_custom_character ( uint8_t char_num,   alias for createChar()
+                                    uint8_t *rows);	      
+    void    printstr              ( const char[]);
