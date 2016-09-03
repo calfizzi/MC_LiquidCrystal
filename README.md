@@ -15,30 +15,30 @@
                             uint8_t SCL_PIN = 5);     SCL_PIN           => you can use any pin of arduino
 
 ##   Methods:
-    void   begin              ( uint8_t cols, 
-                                uint8_t rows, 
-                                uint8_t charsize 
+    void   begin              ( uint8_t cols,         Start the device.
+                                uint8_t rows,         lcd_cols/lcd_rows => identify the size of the display
+                                uint8_t charsize      charsize          => is the chirsize typology of the Display
                                 = LCD_5x8DOTS );
                                 
-    void   clear              ( void );
+    void   clear              ( void );               Clear the display Screen
     
-    void   home               ( void );
+    void   home               ( void );               Move cursor to the top left side of the display 
     
-    void   noDisplay          ( void );
+    void   noDisplay          ( void );               Turn off the display
     
-    void   display            ( void );
+    void   display            ( void );               Turn on the display
     
-    void   noBlink            ( void );
+    void   blink              ( void );               Turn on the Cursor Blinking
     
-    void   blink              ( void );
+    void   noBlink            ( void );               Turn off the Cursor Blinking
     
-    void   noCursor           ( void );
+    void   cursor             ( void );               Turn on the Cursor on the display
+                                                      
+    void   noCursor           ( void );               Turn off the Cursor on the display
     
-    void   cursor             ( void );
+    void   scrollDisplayLeft  ( void );               Scroll the characters on the Display to left
     
-    void   scrollDisplayLeft  ( void );
-    
-    void   scrollDisplayRight ( void );
+    void   scrollDisplayRight ( void );               Scroll the characters on the Display to right
     
     void   printLeft          ( void );
     
